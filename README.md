@@ -12,15 +12,13 @@ The application boasts a sleek, themeable UI with both light and dark modes, and
 
 ## Live Demo
 
-_[Your Live Demo Link Here]_
+[View the live application here!](https://kaban-task-manager-two.vercel.app/)
 
 ## Screenshots
 
-_(Replace the placeholder images with your own screenshots!)_
-
-|                                         Dark Mode                                          |                                          Light Mode                                          |
-| :----------------------------------------------------------------------------------------: | :------------------------------------------------------------------------------------------: |
-| ![Dark Mode Screenshot](https://via.placeholder.com/600x400.png?text=Dark+Mode+Screenshot) | ![Light Mode Screenshot](https://via.placeholder.com/600x400.png?text=Light+Mode+Screenshot) |
+|                       Dark Mode                       |                       Light Mode                        |
+| :---------------------------------------------------: | :-----------------------------------------------------: |
+| ![Dark Mode Screenshot](./assets/kaban-dark-mode.png) | ![Light Mode Screenshot](./assets/kaban-light-mode.png) |
 
 ## Features
 
@@ -41,3 +39,27 @@ _(Replace the placeholder images with your own screenshots!)_
 - **State Management:** [Redux Toolkit](https://redux-toolkit.js.org/)
 - **Styling:** [Tailwind CSS](https://tailwindcss.com/)
 - **Persistence:** Browser Local Storage
+
+## Run Locally
+
+**Prerequisites:** [Node.js](https://nodejs.org/) (v18 or higher recommended)
+
+1.  **Clone the repository:**
+
+    ```bash
+    git clone https://github.com/Garethvdb08/kaban-task-manager.git
+    cd kaban-task-manager
+    ```
+
+2.  **Install dependencies:**
+
+    ```bash
+    npm install
+    ```
+
+3.  **Run the development server:**
+    ```bash
+    npm run dev
+    ```
+
+The application will be available at `http://localhost:5173` (or the next available port).
