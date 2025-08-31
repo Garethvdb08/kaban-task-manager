@@ -1,0 +1,5 @@
+{
+  "name": "Kaban Task Manager",
+  "description": "An interactive task management application with drag-and-drop functionality, state management via Redux, and data persistence using local storage for a seamless user experience.",
+  "requestFramePermissions": []
+}
